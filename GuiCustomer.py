@@ -3,6 +3,7 @@ from tkinter import *
 from tkinter import messagebox
 from tkinter.ttk import *
 
+
 def see_store():
     messagebox.showinfo(f'"{s.name}" in {s.city}',s)
 
